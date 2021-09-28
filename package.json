@@ -1,0 +1,23 @@
+{
+  "name": "shenzhenyao-modules",
+  "version": "1.0.0",
+  "description": "JavaScript Modules developed by Shenzhen Yao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenzhenYAO/npm_package_modules_public.git"
+  },
+  "author": "Shenzhen Yao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShenzhenYAO/npm_package_modules_public/issues"
+  },
+  "homepage": "https://github.com/ShenzhenYAO/npm_package_modules_public#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^17.0.0"
+  }
+}
