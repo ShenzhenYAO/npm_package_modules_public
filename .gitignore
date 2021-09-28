@@ -1,2 +1,7 @@
 node_modules/
 testlocal.js
+
+1. Create a project at local, create index.js and put the functions in it. 
+2. Git init the project, and npm init it. 
+3. Sign up a user account at https://www.npmjs.com/signup, and log in
+4. $ npm login
