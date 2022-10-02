@@ -1,6 +1,6 @@
 {
   "name": "shenzhenyao-modules",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript Modules developed by Shenzhen Yao",
   "main": "index.js",
   "scripts": {
