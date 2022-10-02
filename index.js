@@ -13,7 +13,7 @@ let modules = {
             let $ = require("jquery")(window);
 
             let masks_dict = {}
-            if (xhtmlstr = '__demo__') {
+            if (xhtmlstr === '__demo__') {
                 xhtmlstr = `
     
         <p class='1 ok/'>this is the first part with a "
