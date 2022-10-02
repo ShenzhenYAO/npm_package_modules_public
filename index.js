@@ -132,13 +132,19 @@ let modules = {
             original_tagnames_arr.forEach(original_tagname => {
                 // console.log(original_tagname)
                 let pattern, re, replacestr
-                pattern = `\<${original_tagname}`
+                pattern = `\<${original_tagname} `
                 replacestr = `<${original_tagname}${tag_suffix}`
                 re = new RegExp(pattern, 'g')
                 resultStr = resultStr.replace(re, replacestr)
-
+        
                 pattern = `\/${original_tagname}\>`
                 replacestr = `\/${original_tagname}${tag_suffix}\>`
+                re = new RegExp(pattern, 'g')
+                resultStr = resultStr.replace(re, replacestr)
+        
+                pattern, re, replacestr
+                pattern = `\<${original_tagname}\/\>`
+                replacestr = `<${original_tagname}${tag_suffix}`
                 re = new RegExp(pattern, 'g')
                 resultStr = resultStr.replace(re, replacestr)
 
