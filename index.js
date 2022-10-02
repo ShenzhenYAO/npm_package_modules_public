@@ -133,7 +133,7 @@ let modules = {
                 // console.log(original_tagname)
                 let pattern, re, replacestr
                 pattern = `\<${original_tagname} `
-                replacestr = `<${original_tagname}${tag_suffix}`
+                replacestr = `<${original_tagname}${tag_suffix} `
                 re = new RegExp(pattern, 'g')
                 resultStr = resultStr.replace(re, replacestr)
         
@@ -144,7 +144,7 @@ let modules = {
         
                 pattern, re, replacestr
                 pattern = `\<${original_tagname}\/\>`
-                replacestr = `<${original_tagname}${tag_suffix}`
+                replacestr = `<${original_tagname}${tag_suffix}\/\>`
                 re = new RegExp(pattern, 'g')
                 resultStr = resultStr.replace(re, replacestr)
 
