@@ -1,6 +1,6 @@
 {
   "name": "shenzhenyao-modules",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "JavaScript Modules developed by Shenzhen Yao",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/ShenzhenYAO/npm_package_modules_public#readme",
   "dependencies": {
+    "adm-zip": "^0.5.9",
     "jquery": "^3.3.1",
-    "jsdom": "^17.0.0"
+    "jsdom": "^20.0.0",
+    "uuid": "^9.0.0"
   }
 }
